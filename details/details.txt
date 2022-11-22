@@ -1,0 +1,23 @@
+class Project{
+public:	
+	int incomeTenge,outcomeTenge;
+	string employer,groupName,waste;
+};
+
+void info(){
+	Project project1;
+	project1.incomeTenge = 25000;
+	project1.outcomeTenge = 470;
+	project1.waste = "2nights4Code&1night4debug&1night4explanation";
+	project1.employer = "Daulet";
+	project1.groupName = "E.N.I.G.M.A.";
+}
+
+/*	
+		Task requirements:
+	1) use OOP methods - used inheretance and contructer;
+	2) console game with friendly interface - used specific unicodes for design and background;
+	
+	20,000tenge for code + 5,000tenge for explanation
+	outcome: 2 nights and 1 maxitea
+*/
